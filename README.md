@@ -1,2 +1,2 @@
 # Crypto-Project
-This is a python code for encrypting user personal data using hash functions and image processing
+This is a python code for encrypting user personal data using hash functions and image processing. The program asks for 2 user inputs-user name and password. It then uses 6 indigenous-team designed hash functions to encrypt the password(string) and then, uses that encrypted string to change the pixels of base image and stores the password in the form of a picture in the backend database. When the user re enters the password, an image is created using the aforementioned method, and is compared to the user's pre-existing image in the database. If they match, the user is allowed access inside.
